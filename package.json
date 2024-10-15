@@ -1,0 +1,27 @@
+{
+  "name": "it-incubator",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "type": "commonjs",
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": " nodemon --inspect dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bild": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.5",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
